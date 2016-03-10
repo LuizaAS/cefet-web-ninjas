@@ -1,0 +1,40 @@
+#logo{
+  width: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+p > iframe,  img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+body{
+  font-family: arial;
+  text-align: justify;
+}
+h1, h2{
+  font-family: sans-serif;
+}
+a:link{ text-decoration: none;}
+a:visited{text-decoration: none;}
+a:hover{
+  font-style: oblique;
+}
+a:active{}
+a[href*="http"]{
+    background-image: url(img/globo.png);
+    background-repeat: no-repeat;
+    padding-left: 0.5cm;
+  }
+  p>strong{
+    background-color: black;
+    color: white;
+    font-size: 40px;
+  }
+  p>em{
+  font-size: 25px;
+  }
+  em.nota{
+    color: gray;
+  }
