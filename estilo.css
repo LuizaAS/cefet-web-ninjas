@@ -12,9 +12,14 @@ p > iframe,  img{
 body{
   font-family: arial;
   text-align: justify;
+  margin:0;
+  height:auto; 
+  border-right:150px solid gray;
+  border-left:150px solid gray;
 }
 h1, h2{
   font-family: sans-serif;
+  color: 000033;
 }
 a:link{ text-decoration: none;}
 a:visited{text-decoration: none;}
@@ -28,12 +33,13 @@ a[href*="http"]{
     padding-left: 0.5cm;
   }
   p>strong{
-    background-color: black;
-    color: white;
+    background-color: 3366CC;
+    color: 000033;
     font-size: 40px;
   }
   p>em{
   font-size: 25px;
+  color: 000066;
   }
   em.nota{
     color: gray;
